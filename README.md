@@ -1,4 +1,4 @@
-#CV for Joseph Mays
+# CV for Joseph Mays
 
 ![page1](compiled/CV1.png)
 ![page2](compiled/CV2.png)
