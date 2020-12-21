@@ -2,13 +2,14 @@
 \usepackage[utf8]{inputenc}
 \pagestyle{empty} % Suppress page numbers
 \usepackage[left=0.6 in,top=0.8in,right=0.6in,bottom=0.6in]{geometry} %margins
-\usepackage{scrextend} % allows finer margin manipulation
+\usepackage{scrextend} % allows finer margin manipulation 
 \usepackage[none]{hyphenat} % removes all hyphenation
 \setlength{\parindent}{0pt} % turns off indentation
 \usepackage{tgpagella} % palatino font - text only
 \usepackage{enumitem} %for space between list items
 \setlist[itemize]{noitemsep, topsep=0pt, partopsep=0pt}
-\renewcommand\labelitemi{$\circ$} %bullet for list items
+
+\renewcommand\labelitemi{$\circ$} %bullet for list items 
 
 \usepackage{bibentry} %for references
 %\usepackage[dvipsnames]{xcolor} %for colors
@@ -42,12 +43,18 @@
 
 % ---------------------------------------------------
 \begin{document}
+% --
+% Header & Contact Info
+% --
 {\Huge\textbf{Joseph C. Mays}}\\\\
 \faHome\hspace{2 mm}564 1st Ave, Apt 12C, New York, NY 10016\\
 \faEnvelopeSquare\hspace{2.3 mm}\href{mailto:josephcmays+CV@gmail.com}{josephcmays@gmail.com}\\
 \faPhone\hspace{2.4 mm}973.934.5264\\
 \faGithub\hspace{2 mm}\href{https://github.com/joeymays}{github.com/joeymays}\\
 
+% --
+% Education Section
+% --
 \CVHeading{Education}
 \begin{CVSection}
 \textbf{New York University School of Medicine}, New York, NY \hfill August 2018--Present\\
@@ -57,13 +64,17 @@ Cumulative GPA: 3.91
 
 \begin{CVSection}
 \textbf{Colgate University}, Hamilton, NY \hfill May 2016\\
-Bachelor of Arts, Molecular Biology (with honors) \& Classical Studies\\
+Bachelor of Arts, Molecular Biology (with honors) \& Classical Studies\\ 
 Cumulative GPA: 3.59
 \end{CVSection}
 
+% --
+% Awards Section
+% --
 \CVHeading{Honors, Awards, \& Grants}
 \begin{CVSection}
 \begin{tabular}{r|l}
+2020 & T32 Cell Biology Training Grant, NYU School of Medicine\\
 2019 & T32 Genome Integrity Training Grant, NYU School of Medicine\\
 2017 & NIDCD Director’s Award, NIH\\
 2016 & Magna Cum Laude, Colgate University\\
@@ -78,10 +89,13 @@ Cumulative GPA: 3.59
 \end{tabular}
 \end{CVSection}
 
+% --
+% Research Section
+% --
 \CVHeading{Research Experience}
 \begin{CVSection}
 \textbf{New York University School of Medicine}, New York, NY\\
-\textsl{PhD Student, Laboratory of Teresa Davoli, PhD\hfill April 2019--Present}
+\textsl{PhD Candidate, Laboratory of Teresa Davoli, PhD\hfill April 2019--Present}
 \begin{itemize}
     \item Explore role of cellular aneuploidy in human placental development
 \end{itemize}
@@ -123,6 +137,9 @@ Mentor: Dr. Douglas Guarneri, PhD
 \end{itemize}
 \end{CVSection}
 
+% --
+% Employment Section
+% --
 \CVHeading{Employment Experience}
 \begin{CVSection}
 \textbf{Colgate University}, Hamilton, NY\\
@@ -145,10 +162,18 @@ Mentor: Dr. Douglas Guarneri, PhD
 \textsl{Lifeguard, Lineberry Natatorium \hfill January 2013--May 2015}
 \end{CVSection}
 
+% --
+% Leadership Section
+% --
 \CVHeading{Leadership Experience}
 \begin{CVSection}
 \textbf{New York University School of Medicine}, New York, NY\\
-\textsl{Secretary, Sackler Institute Student Council	\hfill Spring 2019--Summer 2020}
+\textsl{Leadership Committee, Student Interview Initiative	\hfill November 2020--Present}
+\begin{itemize}
+\item Plan and execute PhD program interviews conducted by current students
+\end{itemize}
+\medskip
+\textsl{Secretary, Student Council	\hfill July 2019--July 2020}
 \begin{itemize}
 \item Coordinated with administration to organize and execute PhD program recruitment
 \item Organized orientation events and onboarding for matriculating students
@@ -165,6 +190,9 @@ Mentor: Dr. Douglas Guarneri, PhD
 \end{itemize}
 \end{CVSection}
 
+% --
+% Teaching Section
+% --
 \CVHeading{Teaching Experience}
 \begin{CVSection}
 \textbf{National Institute on Deafness and other Communication Disorders,\\ National Institutes of Health}, Bethesda, MD\\
@@ -174,6 +202,9 @@ Mentor: Dr. Douglas Guarneri, PhD
 \end{itemize}
 \end{CVSection}
 
+% --
+% Oral Presentations Section
+% --
 \CVHeading{Oral Presentations}
 \begin{CVSection}
 \CVList{Exploration of a multicellular phenotype in cochlear tissue using single-cell RNA-sequencing methods.}{NIDCD Trainee Talks, NIH, June 2017.}
@@ -183,6 +214,9 @@ Mentor: Dr. Douglas Guarneri, PhD
 \CVList{Doing science in college. \textnormal{(Invited Speaker)}}{West Milford High School Science Honor Society, March 2016.}
 \end{CVSection}
 
+% --
+% Poster Presentations Section
+% --
 \CVHeading{Poster Presentations}
 \begin{CVSection}
 \CVList{Single-cell pineal gland neuro-transcriptomic analysis reveals cell type-specific day/night changes.}{NICHD Division of Intramural Research Retreat, NIH, September 2017.}
@@ -192,14 +226,21 @@ Mentor: Dr. Douglas Guarneri, PhD
 \CVList{Lineage tracing in the developing mammalian cochlea.}{Summer Student Poster Day, NIH, August 2015.}
 \end{CVSection}
 
+% --
+% Conference Section
+% --
 \CVHeading{Other Conferences Attended}
 \begin{CVSection}
+\CVList{GRO Your Career}{GRO-Biotech, New York, NY, October 2020.}
 \CVList{New York Stem Cell Foundation}{The Rockefeller University, New York, NY, October 2019.}
 \CVList{Next-Generation Genomics}{New York University, New York, NY, August 2019.}
 \CVList{Eastern Auditory Retreat}{Georgetown University, Washington, DC, June 2017.}
 \CVList{Single Cell Analysis Investigators Meeting}{National Institutes of Health, Bethesda, MD, June 2017.}
 \end{CVSection}
 
+% --
+% Publication Section
+% --
 \nobibliography{pub}
 \bibliographystyle{acm}
 
@@ -218,7 +259,7 @@ Coon SL, Fu C, Hartley S, Holtzclaw L, \textbf{Mays JC}, Kelly MC, Kelley MW, Mu
 
 \textbf{Mays JC}, Kelly MC, Coon SL, Holtzclaw L, Rath MF, Kelley MW, and Klein DC. (2018) Single-cell RNA sequencing of the mammalian pineal gland identifies two pinealocyte subtypes and cell type-specific daily patterns of gene expression. \emph{PLOS ONE} 13(10): e0205883.\\
 \hspace{2 in}\href{https://www.ncbi.nlm.nih.gov/pubmed/30347410}{\faFileTextO\hspace{1mm}PubMed 30347410}
-\hspace{2mm}\href{https://github.com/joeymays/PinealGland_SingleCell}{\faCode\hspace{1mm}Codebook}\medskip
+\hspace{2mm}\href{https://github.com/joeymays/PinealGland_SingleCell}{\faCode\hspace{1mm}Github Codebook}\medskip
 %\hspace{2mm}\color{blue}\faCode\hspace{1mm}\href{https://github.com/joeymays/PinealGland_SingleCell}{Codebook}
 %color version^
 
