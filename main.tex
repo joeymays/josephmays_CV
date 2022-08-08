@@ -1,11 +1,12 @@
-\documentclass[11pt, letterpaper]{article}
+\documentclass[10pt, letterpaper]{article} %set normal font size, everything is set relative to this
 \usepackage[utf8]{inputenc}
 \pagestyle{empty} % Suppress page numbers
 \usepackage[left=0.6 in,top=0.8in,right=0.6in,bottom=0.6in]{geometry} %margins
 \usepackage{scrextend} % allows finer margin manipulation 
 \usepackage[none]{hyphenat} % removes all hyphenation
 \setlength{\parindent}{0pt} % turns off indentation
-\usepackage{tgpagella} % palatino font - text only
+%\usepackage{tgpagella} % palatino font - text only
+\usepackage[sfdefault]{noto} %noto sans fonts
 \usepackage{enumitem} %for space between list items
 \setlist[itemize]{noitemsep, topsep=0pt, partopsep=0pt}
 
@@ -31,6 +32,14 @@
 \begin{addmargin}[2.5em]{0em}
 #2
 \end{addmargin}
+\end{samepage}
+}
+
+\newcommand{\CVListOneLine}[2]{
+\begin{samepage}
+\begin{itemize}[leftmargin=*]
+\item \textsl{#1} \textnormal{#2}
+\end{itemize}
 \end{samepage}
 }
 
