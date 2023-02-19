@@ -12,6 +12,8 @@
 
 \renewcommand\labelitemi{$\circ$} %bullet for list items 
 
+\usepackage{microtype} % manages line breaks, solved issue where margins were broken
+
 \usepackage{bibentry} %for references
 %\usepackage[dvipsnames]{xcolor} %for colors
 \usepackage{hanging}
@@ -57,19 +59,21 @@
 % --
 {\Huge\textbf{Joseph C. Mays}}\\\\
 %\faHome\hspace{2 mm}564 1st Ave, Apt 12C, New York, NY 10016\\
-\faHome\hspace{2 mm}New York, NY, 10016\hspace{4 mm}\faPhone\hspace{2.4 mm}973.934.5264\\
+%\faGithub\hspace{2 mm}\href{https://github.com/joeymays}{github.com/joeymays}\\
+%\faLinkedin\hspace{2 mm}\href{https://www.linkedin.com/in/josephmays2/}{josephmays2}\\
 \faEnvelopeSquare\hspace{2.3 mm}\href{mailto:josephcmays+CV@gmail.com}{josephcmays@gmail.com}\\
-\faGithub\hspace{2 mm}\href{https://github.com/joeymays}{github.com/joeymays}\\
-\faLinkedin\hspace{2 mm}\href{https://www.linkedin.com/in/josephmays2/}{josephmays2}\\
+\faGlobe\hspace{2.3 mm}\href{https://joeymays.xyz}{joeymays.xyz}\\ 
+\faPhone\hspace{2.4 mm}973.934.5264\\
+\faHome\hspace{2 mm}New York, NY\\
 
 % --
 % Education Section
 % --
 \CVHeading{Education}
 \begin{CVSection}
-\textbf{New York University Grossman School of Medicine}, New York, NY \hfill August 2018--Present\\
-PhD, Cell Biology\\
-Cumulative GPA: 3.91
+\textbf{New York University Grossman School of Medicine}, New York, NY \hfill December 2023\\
+PhD, Cell Biology
+%Cumulative GPA: 3.91
 \end{CVSection}
 %--
 \begin{CVSection}
@@ -114,10 +118,10 @@ Bachelor of Arts, Molecular Biology (honors) \& Classical Studies
 \textbf{New York University Grossman School of Medicine}, New York, NY\\
 \textsl{PhD Candidate, Laboratory of Teresa Davoli, PhD\hfill April 2019--Present}
 \begin{itemize}
-    \item Develop and implement methods for detecting aneuploidy in single cells
+    \item Develop experimental and computational methods for detecting DNA copy number variants in single cells
     \item Implement and refine protocols for whole genome sequencing
     \item Explore role of chromosomal copy number variation in human placental development using cell culture and computational methods
-    \item Deploy and manage digital resources (e.g. Slack, Zoom, calendars) used by laboratory members
+    \item Consult on sequencing-based and bioinformatics projects within the lab and with collaborating labs
 \end{itemize}
 \end{CVSection}
 %--
@@ -127,7 +131,7 @@ Bachelor of Arts, Molecular Biology (honors) \& Classical Studies
 Mentors: Dr. Michael Kelly, PhD; Dr. Matthew Kelley, PhD
 \begin{itemize}
 \item Evaluated the role of histone acetylation in cell identity maintenance and fate plasticity in the\\ developing mammalian cochlea
-\item Characterized cellular heterogeneity within the mammalian cochlea using several single-cell RNA sequencing platforms
+\item Characterized cellular heterogeneity in the mammalian cochlea using single-cell RNA sequencing platforms
 \item Explored transcriptomes of mammalian pineal gland cells and their role in circadian rhythm regulation in collaboration with the Nat'l Institute of Child Health and Development
 \item Applied computational analyses to evaluate and interpret high-dimensional sequencing data
 \item Mentored undergraduate students in project management and laboratory techniques
@@ -219,7 +223,7 @@ Mentor: Dr. Douglas Guarneri, PhD
 \CVHeading{Teaching Experience}
 \begin{CVSection}
 \textbf{New York University Grossman School of Medicine}, New York, NY\\
-\textsl{Teaching Assistant, Rigor and Reproducibility Course\hfill Fall 2021}
+\textsl{Teaching Assistant, Rigor and Reproducibility Course\hfill Fall 2021, Fall 2022}
 
 \end{CVSection}
 % --
@@ -278,6 +282,8 @@ Mentor: Dr. Douglas Guarneri, PhD
 \CVHeading{Publications}
 \begin{CVSection}
 %\bibentry{Mays_2018}
+Bosco N, Goldberg A, Johnson AD, Zhao X, \textbf{Mays JC}, ... Davoli T. (2022). KaryoCreate: a new CRISPR-based technology to generate chromosome-specific aneuploidy by targeting human centromeres. \emph{bioRxiv}.\\
+\hspace{2 in}\href{https://doi.org/10.1101/2022.09.27.509580}{\faExternalLink\hspace{1mm}bioRxiv}\medskip
 
 Kolla L, Kelly MC, Mann ZF, Ellis K, Lemons A, Palermo AT, So KS, \textbf{Mays JC}, Orvis J, Burns JC, Hertzano R, Driver EC, and Kelley MW. (2020). Characterization of cochlear hair cell development at the single cell level. \emph{Nat Commun} 11:2389.\\
 \hspace{2 in}\href{https://www.ncbi.nlm.nih.gov/pubmed/32404924}{\faFileTextO\hspace{1mm}PubMed 32404924}\medskip
